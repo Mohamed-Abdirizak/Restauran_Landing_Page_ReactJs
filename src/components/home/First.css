@@ -1,0 +1,277 @@
+.homeMain{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    .left-side{
+        margin-top: 3rem;
+    }
+
+/* delicious and affordable styles */
+    .left-side .del{
+        color:orange;
+        font-size: 3rem;
+    }
+/* meals near you style */
+    .left-side .mea{
+        background: blue;
+        display: inline-block;
+        padding: 1rem ;
+        font-style: italic;
+        font-size: 3rem;
+        color: white;
+    }
+/* paragraph */
+    .left-side .lorem p{
+        padding-top: 2rem;
+        width: 70%;
+        color: grey;
+    }
+    .left-side .leftTwo{
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .leftTwo .playImg{
+        height: 50px;
+        margin-left: 3rem;
+
+    }
+    .lastTwo{
+        display: flex;
+    }
+
+    .leftTwo .lastTwo h4{
+        color:grey;
+        margin-top: 1rem;
+        margin-left: .5rem;
+    }
+
+    
+
+ 
+
+
+
+}
+
+
+.right-side img{
+    max-width: 100%;
+    height: 400px;
+    width: 700px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+
+}
+
+
+
+
+
+@media screen and (min-width:1114px) and (max-width: 1193px)
+{
+    .homeMain{
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+
+        .left-side .lorem p{
+            width: 100%;
+         
+        }
+    }
+
+    .left-side .leftOne .del{
+        margin-right: 2rem;
+    }
+
+    .left-side .leftOne .mea{
+        font-size: 2rem;
+    }
+
+    .left-side .leftOne{
+        display: flex;
+        text-align: center;
+        /* padding-right: 1rem; */
+        /* justify-content: spabe; */
+    }
+
+    /* .left-side p{
+        width: 100%;
+        text-align: center;
+       
+    } */
+
+   
+   
+
+    
+    .left-side .leftTwo{
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+/* second one.... */
+@media screen and (min-width:700px) and (max-width: 1113px)
+{
+    .homeMain{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+
+        .left-side .lorem p{
+            width: 100%;
+         
+        }
+    }
+
+    .left-side .leftOne .del{
+        margin-right: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .left-side .leftOne .mea{
+        font-size: 1.8rem;
+    }
+
+    /* .left-side .leftOne{
+        display: flex;
+        text-align: center;
+     
+    } */
+
+    /* .left-side p{
+        width: 100%;
+        text-align: center;
+       
+    } */
+   
+
+    
+    .left-side .leftTwo{
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+
+/* third one one.... */
+@media screen and (min-width: 470px) and (max-width:699px) 
+{
+    .homeMain{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+
+
+        
+        .left-side .lorem p{
+            width: 100%;
+         
+        }
+    }
+  
+
+    .left-side .leftOne .del{
+        margin-right: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .left-side .leftOne .mea{
+
+        font-size: 1.5rem;
+    }
+
+
+    
+    .left-side .leftTwo{
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+/* fourth one .... */
+@media screen and (max-width: 469px)  
+{
+    .homeMain{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+
+        .left-side .lorem p{
+            width: 100%;
+         
+        }
+
+        .left-side .lorem p{
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+   
+
+    .left-side .leftOne .del{
+        margin-right: 2rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .left-side .leftOne .mea{
+
+        font-size: 1rem;
+    }
+
+
+    .left-side .leftTwo{
+        flex-direction: column;
+
+
+        .btn{
+            font-size: .7rem;
+            margin-bottom: 1rem;
+            /* display: fle; */
+        }
+
+        .lastTwo{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+
+
+    }
+
+
+    
+    /* .left-side .leftTwo{
+       
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+       
+
+        .btn{
+          
+            padding: 1rem;
+            justify-content: center;
+            text-align: center;
+
+           
+         
+        }
+      
+       
+    } */
+
+
+
+
+
+}
