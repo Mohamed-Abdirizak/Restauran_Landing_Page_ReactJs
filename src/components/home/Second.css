@@ -1,46 +1,45 @@
-.secondHeader{
+.secondHeader {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 
-    .s-left-side img{
+    .s-left-side img {
         max-width: 100%;
-    height: 400px;
-    width: 700px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    /* margin: auto; */
-  
+        height: 400px;
+        width: 700px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        /* margin: auto; */
+
     }
 
-    .s-right-side
-    {
+    .s-right-side {
         margin-left: 2rem;
         margin-top: 3rem;
 
 
-        .est h4{
-            color:rgb(117, 117, 230);
+        .est h4 {
+            color: rgb(117, 117, 230);
         }
 
-        .we{
-            color:orange;
+        .we {
+            color: orange;
             font-size: 3rem;
         }
 
-        .over{
+        .over {
             background: blue;
-        display: inline-block;
-        padding: 1rem ;
-        font-style: italic;
-        font-size: 3rem;
-        color: white;
+            display: inline-block;
+            padding: 1rem;
+            font-style: italic;
+            font-size: 3rem;
+            color: white;
         }
 
-        .s-lorem p{
-            color:grey;
+        .s-lorem p {
+            color: grey;
             margin-top: 1rem;
             margin-bottom: 1rem;
         }
@@ -49,57 +48,107 @@
 
 
     }
-    
+
 
 
 
 }
 
+/* start making the image respnsive........ */
 
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .secondHeader {
+        .s-left-side img {
+            height: 300px;
+            width: 500px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+
+    }
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .secondHeader {
+        .s-left-side img {
+            height: 300px;
+            width: 400px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .secondHeader {
+        .s-left-side img {
+            height: 200px;
+            width: 300px;
+            border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+        }
+    }
+
+
+
+}
+
+/* end: making the image responsive... */
 
 @media screen and (min-width: 1000px) and (max-width: 1193px) {
-    .secondHeader{
-       .s-right-side{
+    .secondHeader {
+        .s-right-side {
 
-        .we{
-            /* color:white; */
-            font-size: 2rem;
+            .we {
+                /* color:white; */
+                font-size: 2rem;
+            }
+
+            .over {
+                font-size: 2rem;
+            }
+
+
+
         }
-
-        .over{
-            font-size: 2rem;
-        }
-
-
-        
-    } 
     }
-    
-    
+
+
 }
-@media screen and (max-width: 800px) 
-{
-    .secondHeader{
+
+@media screen and (max-width: 800px) {
+    .secondHeader {
         flex-direction: column;
         justify-content: center;
         text-align: center;
         align-items: center;
 
 
-        .s-right-side{
+        .s-right-side {
 
-            .we{
+            .we {
                 /* color:white; */
                 font-size: 1.5rem;
             }
-    
-            .over{
+
+            .over {
                 font-size: 1rem;
             }
-    
-    
-            
-        } 
+
+
+
+        }
     }
 
 
@@ -110,9 +159,8 @@
 
 
 
-@media screen and (max-width: 999px)
-{
-    .secondHeader{
+@media screen and (max-width: 999px) {
+    .secondHeader {
         flex-direction: column;
         justify-content: center;
         text-align: center;

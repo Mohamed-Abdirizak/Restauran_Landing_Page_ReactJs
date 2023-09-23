@@ -67,6 +67,45 @@
 
 }
 
+@media screen and (min-width: 600px) and (max-width: 800px) {
+        .right-side img{
+        height: 300px;
+        width: 500px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    
+    
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .right-side img{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .right-side img{
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+}
+
+
 
 
 
@@ -114,6 +153,12 @@
         margin-bottom: 2rem;
     }
 }
+
+
+
+
+
+
 
 /* second one.... */
 @media screen and (min-width:700px) and (max-width: 1113px)

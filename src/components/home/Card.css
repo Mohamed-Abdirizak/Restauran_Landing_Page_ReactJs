@@ -1,0 +1,53 @@
+.rowOne{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .card-details{
+        margin-left: 1rem;
+    }
+    .insideRowOne{
+        background: rgb(224, 213, 213);
+        padding: 0 0 1rem 0;
+        
+        .tom{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: grey;
+        }
+
+
+    }
+
+
+
+}
+.rowTwo{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .card-details{
+        margin-left: 1rem;
+    }
+    .insideRowTwo{
+        background: rgb(224, 213, 213);
+        padding: 0 0 1rem 0;
+        
+        .tom{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: grey;
+        }
+
+
+    }
+
+
+
+
+}
