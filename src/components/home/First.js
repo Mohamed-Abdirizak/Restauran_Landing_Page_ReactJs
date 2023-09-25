@@ -28,6 +28,9 @@ const First = () => {
         <h4>Meet The Chefs</h4>
         </div>
       </div>
+        
+
+
       </div>
       <div className='right-side'>
       <img src={foodImg} alt='foodImage'/>

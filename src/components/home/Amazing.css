@@ -1,5 +1,45 @@
+.additonaPaddings{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
 
-.allColls{
+.amaHeader{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 6rem;
+
+
+    
+
+    .ser{
+        background: blue;
+        display: inline-block;
+        padding: 1rem ;
+        font-style: italic;
+        font-size: 3rem;
+        color: white;
+        align-items: center;
+        text-align: center;
+        /* mask-border: 1rem; */
+    }
+
+    .ama{
+        /* color:orange; */
+        font-size: 3rem;
+        margin-right: .5rem;
+        margin-top: .7rem;
+    }
+
+  
+
+
+
+}
+
+
+.allCols{
     margin-top: 2rem;
     display: flex;
     text-align: center;
@@ -8,7 +48,7 @@
 
     margin-bottom: 2rem;
 
-    .fands{
+    .firstAndSecond{
         display: flex;
     }
 
@@ -16,7 +56,7 @@
 
 
     /* col1 */
-    .col1_1{
+    .col1{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -31,7 +71,7 @@
         }
 
 
-        .col1Image img{
+        .col1Img img{
         
                 height: 80px;
                 width: 90px;
@@ -39,11 +79,11 @@
             
         }
 
-        .plorem1 p{
+        .plorem p{
             margin-top: 1rem;
             margin-bottom: 1rem;
          
-            /* width: 70%;  */
+            width: 70%; 
             margin-left: 4rem;
             color: grey;
             /* margin-left: 5rem; */
@@ -67,71 +107,67 @@
         }
        
     }
+     
+
     
+    
+
         /* col 2 */
-        .col1_{
+
+
+        .col2{
+
             justify-content: center;
             align-items: center;
             text-align: center;
-            /* display: flex; */
-    
-    
-    
+            /* border: 1px solid black; */
+
+
             &:hover{
                 cursor: pointer;
                 transform: scale(1.1);
                 transition: .3s;
             }
+
+
+            /* &hover{
+                transition: scale(0.8);
+            } */
     
     
-            .col2Image img{
+            .col2Img img{
             
                     height: 80px;
                     width: 90px;
-                  
-                
+                    /* margin-left: 20px; */        
             }
     
             .plorem2 p{
+                /* text-align: center; */
+                /* align-items: center;  */
+                width: 70%; 
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-             
-                /* width: 70%;  */
                 margin-left: 4rem;
+                /* justify-content: center; */
                 color: grey;
                 /* margin-left: 5rem; */
             }
-    
-           
-    
-        }
-    
-    
-    
-        .lea {
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            display: flex;
-            color:blue;
-    
-            .pl{
-                color:blue;
-            }
-           
+
+
+
+
+
         }
 
-
-
-
-        .col1_2{
+/* col 3 */
+        .col3{
             justify-content: center;
             align-items: center;
             text-align: center;
-            /* display: flex; */
-    
-    
-    
+            /* border: 1px solid black; */
+
+
             &:hover{
                 cursor: pointer;
                 transform: scale(1.1);
@@ -139,92 +175,34 @@
             }
     
     
-            .col2Image img{
+            .col3Img img{
             
                     height: 80px;
                     width: 90px;
-                  
-                
+                    /* margin-left: 20px; */        
             }
     
-            .plorem12 p{
+            .plorem3 p{
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-             
-                /* width: 70%;  */
+                /* text-align: center; */
+                /* align-items: center;  */
+                width: 70%; 
                 margin-left: 4rem;
+                /* justify-content: center; */
                 color: grey;
                 /* margin-left: 5rem; */
             }
-    
-           
-    
+
         }
     
-    
-    
-        .lea {
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            display: flex;
-            color:blue;
-    
-            .pl{
-                color:blue;
-            }
-           
-        }
-
-
-       
 
 
 
 
-        
-/* col 3 */
-
-.col1_3{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* display: flex; */
 
 
 
-    &:hover{
-        cursor: pointer;
-        transform: scale(1.1);
-        transition: .3s;
-    }
-
-
-    .col3Image img{
-    
-            height: 80px;
-            width: 90px;
-          
-        
-    }
-
-    .plorem13 p{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-     
-        /* width: 70%;  */
-        margin-left: 4rem;
-        color: grey;
-        /* margin-left: 5rem; */
-    }
-
-   
-
-}
-
-      
-    
-        
 
 }
 
@@ -235,34 +213,6 @@
     .allCols{
         flex-direction: column;
         .firstAndSecond{
-            flex-direction: column;
-        }
-
-
-    }
-
-    .amaHeader{
-
-        .ser{
-            font-size: 1rem;
-            padding: 0.5rem;
-        }
-        .ama{
-            font-size: 1rem;
-        }
-
-
-    }
-    
-}
-
-
-/* one line..... by each one */
-
-@media screen and (max-width: 500px) {
-    .allCols{
-        flex-direction: column;
-        .fands{
             flex-direction: column;
         }
 
@@ -304,19 +254,6 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -75,7 +75,10 @@ const Tabs = () => {
 
 
                 {/* </div>} */}
-                {activeTab === 0 && <div className="card"><Card /></div>}
+                {activeTab === 0 && <div className="card">
+                    {/* <Card /> */}
+                    fdsaf
+                </div>}
                 {activeTab === 1 && <div className="card">Card 2</div>}
                 {activeTab === 2 && <div className="card">Card 3</div>}
                 {activeTab === 3 && <div className="card">Card 4</div>}

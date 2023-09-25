@@ -8,7 +8,7 @@
 
 /* delicious and affordable styles */
     .left-side .del{
-        color:orange;
+        /* color:orange; */
         font-size: 3rem;
     }
 /* meals near you style */
@@ -229,6 +229,7 @@
         margin-bottom: 1rem;
     }
     .left-side .leftOne .mea{
+        padding: .5rem;
 
         font-size: 1.5rem;
     }
@@ -267,6 +268,7 @@
         margin-bottom: 1rem;
     }
     .left-side .leftOne .mea{
+        padding: .3rem;
 
         font-size: 1rem;
     }
