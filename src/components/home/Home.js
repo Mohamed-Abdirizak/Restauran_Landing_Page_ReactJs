@@ -9,7 +9,8 @@ const Home = () => {
     <div>
       <First />
       <Second />
-      {/* <Tabs /> */}
+      <Tabs />
+      {/* <Card /> */}
       <Amazing />
     </div>
   )

@@ -1,0 +1,212 @@
+
+
+.parentDiv {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    /* grid-column-start: 2rem; */
+  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+
+    .cards{
+        background-color: antiquewhite;
+        padding: 0rem 0rem 1rem 0rem;
+        margin-bottom: 2rem;
+
+        .cardImg{
+            height: 250px;
+            width: 250px;
+        }
+
+        .card-details{
+            .topic{
+                /* top right bottom left */
+                margin: .5rem 0rem .5rem 1rem;
+            }
+            .desc{
+                margin: .5rem 0rem .5rem 1rem;
+                color:grey;
+            }
+            .price{
+                margin: .5rem 0rem 0rem 1rem;
+            }
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ........................................... */
+.allColls{
+    margin-top: 2rem;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-bottom: 2rem;
+
+    .fands{
+        display: flex;
+    }
+
+
+
+
+    /* col1 */
+    .col1_1{
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        background-color: rgb(228, 220, 205);
+        padding: 0px 0px 1rem 0rem;
+
+
+        
+
+        /* display: flex; */
+
+
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: .3s;
+        }
+
+
+        .col1Image img{
+        
+                height: 200px;
+                width: 250px;
+              
+            
+        }
+
+        .veg{
+            margin-top: .5rem;
+            margin-left: 1rem;
+        }
+
+
+        .tomato p{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+         
+            /* width: 70%;  */
+            color: grey;
+        }
+
+       
+
+    }
+
+
+
+    .parentPrice {
+        
+
+        .price1{
+            color:blue;
+            margin-left: 1rem;
+        }
+       
+    }
+    
+}
+/*.......... col 2  starts here..............................*/
+
+        .col1_2{
+            justify-content: center;
+            align-items: center;
+            /* text-align: center; */
+            background-color: rgb(228, 220, 205);
+            padding: 0px 0px 1rem 0rem;
+    
+    
+            
+    
+            /* display: flex; */
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: .3s;
+            }
+    
+    
+            .col2Image img{
+            
+                    height: 200px;
+                    width: 250px;
+                  
+                
+            }
+    
+            .macaroni{
+                margin-top: .5rem;
+                margin-left: 1rem;
+            }
+    
+    
+            .cheeze p{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 1rem;
+             
+                /* width: 70%;  */
+                color: grey;
+            }
+    
+           
+    
+        }
+    
+    
+    
+        .parentPrice2 {
+            
+    
+            .price2{
+                color:blue;
+                margin-left: 1rem;
+            }
+           
+        }
+      
+/* col 3 */
+
+
+
+/* reading data on a file.... */
+

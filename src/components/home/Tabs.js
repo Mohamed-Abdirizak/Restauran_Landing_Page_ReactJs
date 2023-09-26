@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import './Tabs.css'
-import { Data } from '../../components/home/Data'
+import { Data } from './AllCardsData/Data'
 import vg1 from '../../assets/v1.jfif'
-import Card from './Card';
+import CardTab1 from './TabsCard/CardTab1';
+import CardTab2 from './TabsCard/CardTab2';
+import CardTab3 from './TabsCard/CardTab3';
+import CardTab4 from './TabsCard/CardTab4';
+
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState(0);
 
@@ -11,7 +15,8 @@ const Tabs = () => {
     };
 
     return (
-        <div className='paddingss'>
+        <div className='paddingss mainOne'>
+            {/* <h1>dkfjdskl</h1> */}
             {/*start  tabs... */}
             <div className='tabsAndTopic'>
                 <div className='tTopic'>
@@ -26,25 +31,25 @@ const Tabs = () => {
                         className={`tab-item ${activeTab === 0 ? 'active' : ''}`}
                         onClick={() => handleTabClick(0)}
                     >
-                        Tab 1
+                        Starters
                     </div>
                     <div
                         className={`tab-item ${activeTab === 1 ? 'active' : ''}`}
                         onClick={() => handleTabClick(1)}
                     >
-                        Tab 2
+                        Main
                     </div>
                     <div
                         className={`tab-item ${activeTab === 2 ? 'active' : ''}`}
                         onClick={() => handleTabClick(2)}
                     >
-                        Tab 3
+                        Diet
                     </div>
                     <div
                         className={`tab-item ${activeTab === 3 ? 'active' : ''}`}
                         onClick={() => handleTabClick(3)}
                     >
-                        Tab 4
+                        Drink
                     </div>
                 </div>
             </div>
@@ -67,25 +72,23 @@ const Tabs = () => {
                                 </div>
 
         </div> */}
-                
 
 
 
 
 
 
-                {/* </div>} */}
-                {activeTab === 0 && <div className="card">
-                    {/* <Card /> */}
-                    fdsaf
-                </div>}
-                {activeTab === 1 && <div className="card">Card 2</div>}
-                {activeTab === 2 && <div className="card">Card 3</div>}
-                {activeTab === 3 && <div className="card">Card 4</div>}
+
+            {/* </div>} */}
+            {activeTab === 0 && <div className="card"><CardTab1 /></div>}
+            {activeTab === 1 && <div className="card"><CardTab2 /></div>}
+            {activeTab === 2 && <div className="card"><CardTab3 /></div>}
+            {activeTab === 3 && <div className="card"><CardTab4 /></div>}
             {/* </div> */}
-         </div>
-    // );
-)};
+        </div>
+        // );
+    )
+};
 
 export default Tabs;
 
