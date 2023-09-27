@@ -3,6 +3,8 @@ import First from './First'
 import Second from './Second'
 import Tabs from './Tabs'
 import Amazing from './Amazing'
+import WhyUs from './WhyUs'
+import Customers from './Customers'
 
 const Home = () => {
   return (
@@ -12,6 +14,9 @@ const Home = () => {
       <Tabs />
       {/* <Card /> */}
       <Amazing />
+      <WhyUs />
+      {/* <Customers /> */}
+      
     </div>
   )
 }

@@ -13,6 +13,8 @@ import img8 from '../../../assets/starters/8.jpeg'
 export const Data = [
     {
         id: 1,
+        rate: '3.2',
+        peopleRated: '7',
         name: 'Ukun',
         imgPath: vg1,
         desc: 'Ukun , Yaanyo iyo Qudaar kale',
@@ -20,6 +22,8 @@ export const Data = [
     },
     {
         id: 2,
+        rate: '3.8',
+        peopleRated: '12',
         name: 'Maraq Japanese ah',
         imgPath: img2,
         desc: 'Maraq, Ukun iyo Hilib yar',
@@ -29,6 +33,8 @@ export const Data = [
 
     {
         id: 3,
+        rate: '4.0',
+        peopleRated: '15',
         name: 'Qudaar yar',
         imgPath: img3,
         desc: 'Ansalaato, Karooto iyo Hilib Lo\'o',
@@ -37,6 +43,8 @@ export const Data = [
 
     {
         id: 4,
+        rate: '4.1',
+        peopleRated: '21',
         name: 'Hilib',
         imgPath: img4,
         desc: 'Hillib Geel lashiilay',
@@ -44,6 +52,8 @@ export const Data = [
     },
     {
         id: 5,
+        rate: '4.3',
+        peopleRated: '47',
         name: 'Qudaar yar',
         imgPath: img5,
         desc: 'Yaanyo, Ukun iyo Bisbaas',
@@ -52,6 +62,8 @@ export const Data = [
 
     {
         id: 6,
+        rate: '5.0',
+        peopleRated: '126',
         name: 'Baasto',
         imgPath: img6,
         desc: 'Baasto, Karooto iyo Kabsar caleen',
@@ -59,6 +71,8 @@ export const Data = [
     },
     {
         id: 7,
+        rate: '5.0',
+        peopleRated: '320',
         name: 'Pizza yar',
         imgPath: img7,
         desc: 'Pizza, Cheeze iyo Ansalaato',
@@ -66,6 +80,8 @@ export const Data = [
     },
     {
         id: 8,
+        rate: '4.2',
+        peopleRated: '76',
         name: 'Bariis yar ',
         imgPath: img8,
         desc: 'Bariis, Ukun iyo Moos',

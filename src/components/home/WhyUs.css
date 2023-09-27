@@ -1,0 +1,618 @@
+.WhyHeader {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+
+    /* .why-left-side{
+        border: 1px solid orange;
+
+    } */
+    /* .why-left-side{
+        border: 1rem solid orange;
+    }
+    .why-right-side{
+        border: 1rem solid blue;
+    } */
+
+    .why-right-side img {
+        /* max-width:auto; */
+        height: 400px;
+        width: 500px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        /* margin-left: 20px; */
+        /* margin: auto; */
+
+    }
+
+    .why-left-side {
+        /* padding: 20rem; */
+        margin-left: 2rem;
+        margin-top: 3rem;
+        /* margin-top: 20rem; */
+
+
+
+        .whyChoose {
+            display: flex;
+
+            .why {
+                margin-right: 1rem;
+            }
+        }
+
+
+        .brand h4 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: rgb(117, 117, 230);
+        }
+
+        .why {
+            /* color: orange; */
+            font-size: 3rem;
+        }
+
+        .choose {
+            background: blue;
+            display: inline-block;
+            /* padding: 1rem; */
+            padding: .5rem;
+            font-style: italic;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .lorem-text p {
+            color: grey;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 70%;
+            font-size: 1.2rem;
+        }
+
+
+        .nums {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+        }
+
+        .numsHoosTooda {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            color: rgb(117, 117, 230);
+
+
+            margin-bottom: 1rem;
+
+            .num1Hoos {
+                font-size: 1.2rem;
+            }
+
+            .num2Hoos {
+                font-size: 1.2rem;
+            }
+
+            .num3Hoos {
+                font-size: 1.2rem;
+            }
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+
+
+
+}
+
+/* start making the image respnsive........ */
+
+/* @media screen and (min-width: 600px) and (max-width: 800px) {
+    .WhyHeader {
+        .s-right-side img {
+            height: 300px;
+            align-items: center; 
+            text-align: center;
+            width: 400px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+
+       .why-left-side{
+        text-align: center;
+        align-items: center;
+
+        .whyChoose{
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lorem-text p{
+            width: 100%;
+         
+        }
+
+
+
+       }
+
+    }
+
+
+} */
+
+
+@media screen and (min-width: 1000px) and (max-width: 1193px) {
+    .WhyHeader {
+        .why-left-side {
+
+
+            .whyChoose {
+                .why {
+                    font-size: 2rem;
+                }
+
+                .choose {
+                    font-size: 2rem;
+                }
+
+               
+            }
+
+
+
+
+
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+    .WhyHeader {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        .why-right-side img {
+            height: 500px;
+            width: 700px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .why-left-side {
+
+            .brand h4 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .whyChoose {
+                justify-content: center;
+
+                .why {
+                    font-size: 1.8rem;
+                }
+
+                .choose {
+                    font-size: 1.8rem;
+                    padding: .8rem;
+                }
+            }
+
+            .lorem-text p {
+                width: 100%;
+            }
+
+
+            .nums{
+                width: 100%;
+                text-align: center;
+            }
+
+            .numsHoosTooda{
+                width: 100%;
+                text-align: center;
+            }
+
+            .nums{
+                width: 100%;
+                text-align: center;
+            }
+
+            .numsHoosTooda{
+                width: 100%;
+                text-align: center;
+            }
+
+           
+
+
+
+        }
+
+
+
+        .btn {
+            margin-bottom: 1rem;
+        }
+
+
+
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+    .WhyHeader {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        .why-right-side img {
+            height: 300px;
+            width: 450px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .why-left-side {
+
+            .brand h4 {
+                font-size: 1.5rem;
+                margin-bottom: .8rem;
+            }
+
+            .whyChoose {
+                justify-content: center;
+
+                .why {
+                    font-size: 1.6rem;
+                }
+
+                .choose {
+                    font-size: 1.6rem;
+                    padding: .6rem;
+                }
+            }
+
+
+            .lorem-text p {
+                width: 100%;
+            }
+
+
+            .nums{
+                width: 100%;
+                text-align: center;
+            }
+
+            .numsHoosTooda{
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+
+        .btn {
+            margin-bottom: 1rem;
+        }
+
+
+
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .WhyHeader {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+        .why-right-side img {
+            height: 300px;
+            width: 400px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .why-left-side {
+
+            .brand h4 {
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+            }
+
+            .whyChoose {
+                justify-content: center;
+
+                .why {
+                    font-size: 1.6rem;
+                }
+
+                .choose {
+                    font-size: 1.6rem;
+                    padding: .6rem;
+                }
+
+
+
+
+
+
+            }
+
+
+            .lorem-text p {
+                width: 100%;
+            }
+
+            .btn {
+                margin-bottom: 1rem;
+            }
+
+            .nums{
+                width: 100%;
+                text-align: center;
+            }
+
+            .numsHoosTooda{
+                width: 100%;
+                text-align: center;
+            }
+
+
+
+        }
+    }
+
+
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 499px) {
+    .WhyHeader {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+        .why-right-side img {
+            height: 200px;
+            width: 300px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .why-left-side {
+
+            .brand h4 {
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+            }
+
+            .whyChoose {
+                justify-content: center;
+
+                .why {
+                    font-size: 1.4rem;
+                }
+
+                .choose {
+                    font-size: 1.3rem;
+                    padding: .5rem;
+                }
+
+
+
+
+
+
+            }
+
+
+            .lorem-text p {
+                width: 100%;
+            }
+
+            .btn {
+                margin-bottom: 1rem;
+            }
+
+            .nums{
+                width: 100%;
+                text-align: center;
+
+                .num1{
+                    font-size: 1rem;
+                }
+                .num2{
+                    font-size: 1rem;
+                }
+                .num3{
+                    font-size: 1rem;
+                }
+
+
+
+            }
+
+            .numsHoosTooda{
+                width: 100%;
+                text-align: center;
+
+
+                .num1Hoos{
+                    font-size: 1rem;
+                }
+                .num2Hoos{
+                    font-size: 1rem;
+                }
+    
+                .num3Hoos{
+                    font-size: 1rem;
+                }
+            }
+
+           
+
+
+
+
+
+        }
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 359px) {
+    .WhyHeader {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+        .why-right-side img {
+            height: 120px;
+            width: 200px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .why-left-side {
+
+            .brand h4 {
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+            }
+
+            .whyChoose {
+                justify-content: center;
+
+                .why {
+                    font-size: 1.2rem;
+                }
+
+                .choose {
+                    font-size: 1rem;
+                    padding: .3rem;
+                }
+
+
+
+
+
+
+            }
+
+
+            .lorem-text p {
+                width: 100%;
+            }
+
+            .btn {
+                margin-bottom: 1rem;
+            }
+
+
+  
+
+
+            .nums{
+                flex-direction: column;
+                
+                width: 100%;
+                text-align: center;
+
+                .num1{
+                    font-size: 1rem;
+                }
+                .num2{
+                    font-size: 1rem;
+                }
+                .num3{
+                    font-size: 1rem;
+                }
+
+
+
+            }
+
+            .numsHoosTooda{
+                flex-direction: column;
+                
+                width: 100%;
+                text-align: center;
+
+
+                .num1Hoos{
+                    font-size: 1rem;
+                }
+                .num2Hoos{
+                    font-size: 1rem;
+                }
+    
+                .num3Hoos{
+                    font-size: 1rem;
+                }
+            }
+
+
+
+        }
+    }
+
+
+
+
+}

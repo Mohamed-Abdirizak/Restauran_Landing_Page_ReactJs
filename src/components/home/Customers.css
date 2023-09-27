@@ -1,0 +1,61 @@
+
+
+    /* align-items: center; */
+    .cusText {
+        flex-wrap: wrap;
+
+        justify-content: center;
+        display: flex;
+
+
+        .cus {
+            margin-top: 1rem;
+            /* color:white */
+            font-size: 3rem;
+        }
+
+        .love {
+            margin-left: 1rem;
+            background: blue;
+            padding: 1rem;
+            color: white;
+            font-size: 3rem;
+            font-style: italic;
+        }
+
+
+
+    }
+
+
+/*  */
+
+.mainCard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+
+
+
+    .cad{
+
+       .imagess img{
+     
+        margin-left: 50px;
+        height: 200px;
+   
+    } 
+
+    .des{
+        width: 50%;
+    }
+
+
+    }
+
+
+    
+}

@@ -15,6 +15,8 @@ import img8 from '../../../assets/drink/8.jpeg'
 export const DataCard4 = [
     {
         id: 1,
+        rate: '5.0',
+        peopleRated: '479',
         name: 'Coce',
         imgPath: img1,
         desc: 'Coce Drink',
@@ -22,6 +24,8 @@ export const DataCard4 = [
     },
     {
         id: 2,
+        rate: '5.0',
+        peopleRated: '447',
         name: 'Lemon',
         imgPath: img2,
         desc: 'Lemon Drink',
@@ -31,6 +35,8 @@ export const DataCard4 = [
 
     {
         id: 3,
+        rate: '3.9',
+        peopleRated: '17',
         name: 'Mineral',
         imgPath: img3,
         desc: 'Mineral Water',
@@ -39,6 +45,8 @@ export const DataCard4 = [
 
     {
         id: 4,
+        rate: '4.8',
+        peopleRated: '1,237',
         name: 'Lemon',
         imgPath: img4,
         desc: 'Lemon Water',
@@ -46,6 +54,8 @@ export const DataCard4 = [
     },
     {
         id: 5,
+        rate: '4.5',
+        peopleRated: '97',
         name: 'Qajaar',
         imgPath: img5,
         desc: 'Qajaar Shiidan',
@@ -54,6 +64,8 @@ export const DataCard4 = [
 
     {
         id: 6,
+        rate: '4.0',
+        peopleRated: '127',
         name: 'Strawberry',
         imgPath: img6,
         desc: 'Strawberry drink',
@@ -61,6 +73,8 @@ export const DataCard4 = [
     },
     {
         id: 7,
+        rate: '4.1',
+        peopleRated: '87',
         name: 'Bear',
         imgPath: img7,
         desc: 'Bear water',
@@ -68,6 +82,8 @@ export const DataCard4 = [
     },
     {
         id: 8,
+        rate: '4.3',
+        peopleRated: '47',
         name: 'Mixed ',
         imgPath: img8,
         desc: 'Mixed Drink',
