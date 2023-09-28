@@ -37,8 +37,10 @@ const Navbar = () => {
                 {click ?( <FaTimes size={20} style={{color: 'black'}}/>) :(<FaBars size={20} style={{color: 'black'}}  />)}
                
                 
-                {/* <FaT */}
+               
             </div>
+
+            light here..
         </div>
 
   )

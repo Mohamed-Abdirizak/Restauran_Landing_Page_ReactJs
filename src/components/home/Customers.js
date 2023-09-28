@@ -10,31 +10,39 @@ const Customers = () => {
                 <h2 className='love'>Love Us.</h2>
             </div>
 
-            <div className='mainCard'>
+            {/* <div className='mainCard'>
                 {
                     CustomerData.map((item) => (
-                        <div className='cad'>
-                            <div className='imagess'>
-                                <img src={item.img} alt='image' />
-                                
 
-
-                            </div>
-                            sdf
-                            
+                            <div className='cad'>
+                                <div className='imagess'>
+                                    <img src={item.img} alt='image' />
+                                </div>
 
                             <div className='des'>
-                                <p>{item.des}</p>
-
-                            </div>
-
-
-
+                                    <p>{item.des}</p>
+                                </div>
 
 
                         </div>
                     ))
                 }
+            </div> */}
+
+            <div className='mainCard'>
+                {CustomerData.map((item) => (
+                    <div className='cad' key={item.id}>
+                        <div className='imagess'>
+                            <img src={item.img} alt='image' />
+                        </div>
+                        <div className='des'>
+                            <p>{item.des}</p>
+                        </div>
+                        <div className='name'>
+                            <p>{item.name}</p>
+                        </div>
+                    </div>
+                ))}
             </div>
 
 

@@ -1,0 +1,262 @@
+.dmain{
+    color: white;
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+    .d-topic{
+        color:orange;
+        font-size: 1rem;
+    }
+
+
+    .d-left{
+        /* justify-content: center; */
+        /* align-items: center; */
+        text-align: center;
+        /* width: 60px; */
+        /* display: flex; */
+
+        margin-top: 5rem;
+        
+        /* display: flex; */
+
+
+        .d-desc-main{
+            font-size: 2rem;
+            align-items: center;
+            /* text-align: center; */
+
+            .line1 h4{
+                /* { */
+                    color:white;
+                /* } */
+            }
+
+            .line2{
+                /* color:white; */
+                display: flex;
+
+                .meals{
+                    color:white;
+                    margin-right: 1rem;
+                }
+
+
+
+
+
+                .treact{
+                    text-align: center;
+                    padding-left: 1rem;
+                    color:blue;
+                    background-color: white;
+                    padding: .5rem 1rem .5rem 1rem;
+                    /* padding: 1rem; */
+                    /* display: inline-block; */
+                }
+            }
+
+        }
+
+        .iphoneStore{
+
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+            /* margin-left: 100px; */
+            flex-wrap: wrap;
+            gap: 2rem;
+
+
+            .iphone{
+                display: flex;
+                align-items: center;
+                background: white;
+                padding: .3rem 2rem .3rem 2rem;
+                border-top-right-radius: 30px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+            }
+
+
+            .plays
+            {
+                display: flex;
+                align-items: center;
+                background: white;
+                padding: .3rem 2rem .3rem 2rem;
+                border-top-right-radius: 30px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+            }
+        }
+
+        
+    }
+
+
+    /* right side.... */
+
+
+    .d-right{
+        
+        width: 300px;
+
+        .imageDivClass img{
+            /* text-align: center; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            height: 400px;
+            width: 350px;
+        }
+       
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 499px) and (max-width: 700px) {
+
+    .dmain{
+        .d-left{
+
+            .iphoneStore{
+                align-items: center;
+            }
+
+
+            .d-desc-main{
+
+                .line1 h4{
+                    font-size: 1.7rem;
+                }
+
+                .line2{
+                    flex-direction: column;
+
+                    .meals h4{
+                        font: 1.7rem;
+                    }
+
+                    .treact{
+                        font-size: 1.7rem;
+                        margin-top: 1rem;
+                        width: 50%;
+                        margin-left: 130px;
+ 
+                           color:blue;
+                           background: white;
+                           padding: .5rem 1rem .5rem 1rem;
+                      
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 498px) {
+
+    .dmain{
+        .d-left{
+
+            .iphoneStore{
+                align-items: center;
+            }
+
+
+            .d-desc-main{
+
+                .line1 h4{
+                    font-size: 1.5rem;
+                }
+
+                .line2{
+                    flex-direction: column;
+
+                    .meals{
+                        font-size: 1.5rem;
+                    }
+
+
+
+                    .treact{
+                        font-size: 1.5rem;
+                        margin-top: 1rem;
+ 
+                           color:blue;
+                           background: white;
+                           padding: .5rem 1rem .5rem 1rem;
+                           width: 50%;
+                           /* align-items: center; */
+                           margin-left: 90px;
+                      
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 399px) {
+
+    .dmain{
+        .d-left{
+
+            .iphoneStore{
+                align-items: center;
+            }
+
+
+            .d-desc-main{
+
+                .line1 h4{
+                    font-size: 1rem;
+                }
+
+                .line2{
+                    flex-direction: column;
+
+                    .meals{
+                        font-size: 1rem;
+                    }
+
+
+
+                    .treact{
+                        font-size: 1rem;
+                        margin-top: 1rem;
+ 
+                           color:blue;
+                           background: white;
+                           padding: .5rem 1rem .5rem 1rem;
+                           width: 50%;
+                           margin-left: 90px;
+                      
+                    }
+                }
+            }
+        }
+
+       
+    }
+
+    
+}

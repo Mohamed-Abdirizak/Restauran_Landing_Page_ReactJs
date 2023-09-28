@@ -1,0 +1,86 @@
+.mainOneFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+    gap: 2rem;
+
+
+
+    text-transform: uppercase;
+    /* width: 200px; */
+
+    .main p{
+        margin-top: 1rem;
+        color: grey;
+        font-size: .8rem;
+    }
+
+    .pro p{
+        margin-top: 1rem;
+        color: grey;
+        font-size: .8rem;
+    }
+
+    .press p{
+        margin-top: 1rem;
+        color: grey;
+        font-size: .8rem;
+    }
+
+    .legal p{
+        margin-top: 1rem;
+        color: grey;
+        font-size: .8rem;
+    }
+    .search  p{
+        color: grey;
+        margin-top: 1rem;
+        font-size: .8rem;
+        width: 300px;
+        
+    }
+    .input{
+        margin-top: 1rem;
+    }
+
+    .input::placeholder {
+        /* margin-top:; */
+        font-size: 15px;
+        color:grey;
+        /* padding: 10px; */
+        /* margin-top: 2rem; */
+      }
+      .input[type=text]
+      {
+        padding: 12px;
+      }
+
+      .lastbtn{
+        font-size: 1rem;
+        color:white;
+        padding: 12px;
+        background:  blue;
+        border: none;
+      }
+
+
+      .horizontal-line {
+        border: none;
+        border-top: 1px solid #000;
+        /* margin-bottom: 12rem; */
+      }
+
+
+
+
+}
+
+/* @media screen and (max-width: 700px) {
+    .mainOne{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+} */

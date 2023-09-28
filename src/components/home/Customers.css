@@ -1,61 +1,102 @@
+/* align-items: center; */
+.cusText {
+    flex-wrap: wrap;
+
+    justify-content: center;
+    display: flex;
 
 
-    /* align-items: center; */
-    .cusText {
-        flex-wrap: wrap;
-
-        justify-content: center;
-        display: flex;
-
-
-        .cus {
-            margin-top: 1rem;
-            /* color:white */
-            font-size: 3rem;
-        }
-
-        .love {
-            margin-left: 1rem;
-            background: blue;
-            padding: 1rem;
-            color: white;
-            font-size: 3rem;
-            font-style: italic;
-        }
-
-
-
+    .cus {
+        margin-top: 1rem;
+        /* color:white */
+        font-size: 3rem;
     }
+
+    .love {
+        margin-left: 1rem;
+        background: blue;
+        padding: 1rem;
+        color: white;
+        font-size: 3rem;
+        font-style: italic;
+    }
+
+
+
+}
 
 
 /*  */
 
-.mainCard{
+.mainCard {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    /* align-items: center; */
-    /* text-align: center; */
-    /* justify-content: center; */
+    margin-top: 2rem;
 
 
+    .cad {
+        width: 300px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid orange; */
 
-    .cad{
+        .imagess img {
+            /* width: 100%; */
+            max-height: 150px;
+            /* object-fit: cover; */
 
-       .imagess img{
-     
-        margin-left: 50px;
+            /* margin-left: 50px;
         height: 200px;
-   
-    } 
+        justify-content: center;
+        text-align: center;
+        align-items: center;    */
+        }
 
-    .des{
-        width: 50%;
+        .des p {
+            /* text-align: center; */
+            color: grey;
+            /* margin-left: 30px; */
+            /* width: 50%; */
+            /* text-align: center;
+        align-items: center;
+        justify-content: center; */
+        }
+
+        .name p {
+            margin-top: 1rem;
+        }
+
+
     }
 
 
-    }
 
-
-    
 }
+
+/* 
+
+.mainCard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .cad {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .imagess img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .des {
+    margin-top: 10px;
+  } */

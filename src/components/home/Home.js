@@ -5,6 +5,10 @@ import Tabs from './Tabs'
 import Amazing from './Amazing'
 import WhyUs from './WhyUs'
 import Customers from './Customers'
+import DownloadApp from '../DownloadApp'
+import './Home.css'
+import Footer from './Footer'
+import Last from './Last'
 
 const Home = () => {
   return (
@@ -15,7 +19,16 @@ const Home = () => {
       {/* <Card /> */}
       <Amazing />
       <WhyUs />
-      {/* <Customers /> */}
+      <Customers />
+      <div className='download'>
+      <DownloadApp />
+
+
+
+      </div>
+      
+      <Footer />
+      <Last />
       
     </div>
   )
