@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
 
+    .dark-mode p,h1,h2,h3,h4,p{
+        color:white;
+
+
+    }
+
 
     /* .why-left-side{
         border: 1px solid orange;
@@ -513,6 +519,8 @@
 
 @media screen and (max-width: 359px) {
     .WhyHeader {
+        width: 100%;
+
         flex-direction: column;
         justify-content: center;
         text-align: center;

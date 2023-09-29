@@ -45,6 +45,13 @@
         color:grey;
     }
     .three{
+        .fbicon{
+            margin-right: 1rem;
+        }
+        .twicon{
+            margin-right: 1rem;
+        }
+     
         /* margin-left: 30px; */
         /* align-items: center;
         text-align: center;
@@ -55,4 +62,17 @@
 
 
 
+}
+
+
+.dark-mode{
+    .mainLast{
+        .one p{
+            color:white;
+        }
+
+        .two p{
+            color:white;
+        }
+    }
 }

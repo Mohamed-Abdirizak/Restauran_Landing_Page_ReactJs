@@ -32,7 +32,7 @@
         .over {
             background: blue;
             display: inline-block;
-            padding: 1rem;
+            padding: .4rem;
             font-style: italic;
             font-size: 3rem;
             color: white;
@@ -162,9 +162,25 @@
 
 @media screen and (max-width: 999px) {
     .secondHeader {
+        width: 100%;
+
         flex-direction: column;
         justify-content: center;
         text-align: center;
         align-items: center;
     }
+}
+
+.dark-mode{
+    .secondHeader{
+        .s-right-side{
+            .we{
+                color:white;
+            }
+            .s-lorem p{
+                color:wheat;
+            }
+        }
+    }
+
 }

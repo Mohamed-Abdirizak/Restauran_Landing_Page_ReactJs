@@ -9,26 +9,28 @@ import DownloadApp from '../DownloadApp'
 import './Home.css'
 import Footer from './Footer'
 import Last from './Last'
+import Darkmode from './Darkmode'
 
 const Home = () => {
   return (
     <div>
-      <First />
+      <Darkmode />
+      {/* <First />
+      <Dark
       <Second />
       <Tabs />
-      {/* <Card /> */}
       <Amazing />
       <WhyUs />
-      <Customers />
+      <Customers /> */}
       <div className='download'>
-      <DownloadApp />
+      {/* <DownloadApp /> */}
 
 
 
       </div>
-      
+{/*       
       <Footer />
-      <Last />
+      <Last /> */}
       
     </div>
   )

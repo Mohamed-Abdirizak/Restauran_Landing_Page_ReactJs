@@ -5,7 +5,7 @@ import storeLogo from '../assets/Icons/play_store.png'
 import device from '../assets/Icons/device.png'
 const DownloadApp = () => {
     return (
-        <div className='paddingss dmain'>
+        <div className=' dmain'>
             {/* left side */}
             <div className='d-left'>
                 <div className='d-topic'>

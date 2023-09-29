@@ -84,3 +84,27 @@
     }
     
 } */
+
+
+.dark-mode{
+    .main p{
+        color:white;
+    }
+
+    .pro p{
+        color:white;
+    }
+
+    .press p{
+        color:white;
+    }
+
+    .legal p{
+        color:white;
+    }
+
+    .search p{
+        color:white;
+    }
+
+}

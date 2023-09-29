@@ -15,7 +15,7 @@
     .left-side .mea{
         background: blue;
         display: inline-block;
-        padding: 1rem ;
+        padding: .4rem ;
         font-style: italic;
         font-size: 3rem;
         color: white;
@@ -245,6 +245,7 @@
 @media screen and (max-width: 469px)  
 {
     .homeMain{
+        width: 100%;
         flex-direction: column;
         text-align: center;
         margin-top: 0;
@@ -320,5 +321,38 @@
 
 
 
+
+}
+
+
+
+
+/* if darkmode is true... */
+.dark-mode{
+
+    .homeMain{
+        .left-side{
+            .leftOne{
+                .del{
+                    color:white;
+                }
+               
+            }
+            .lorem p{
+                color:wheat;
+            }
+
+            .lastTwo h4{
+                color:white;
+            }
+
+            /* .leftTwo {
+                .btn{
+                    color:white;
+                }
+            } */
+
+        }
+    }
 
 }

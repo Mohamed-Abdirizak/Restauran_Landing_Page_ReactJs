@@ -100,3 +100,15 @@
   .des {
     margin-top: 10px;
   } */
+
+
+  .dark-mode{
+    .mainCard{
+        .cad{
+           .name p{  
+            color:white;
+           } 
+        }
+        
+    }
+  }

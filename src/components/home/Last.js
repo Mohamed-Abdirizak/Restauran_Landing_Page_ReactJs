@@ -15,8 +15,8 @@ const Last = () => {
 
         </div>
         <div className='three'>
-            <FaFacebook size={30} />
-            <FaTwitter size={30} />
+            <FaFacebook className='fbicon' size={30} />
+            <FaTwitter className='twicon' size={30} />
             <FaYoutube  size={30}/>
         </div>
 

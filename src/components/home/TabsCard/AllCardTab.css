@@ -282,3 +282,43 @@
 
 /* reading data on a file.... */
 
+
+
+
+
+
+.dark-mode{
+    
+.cards{
+    .card-details{
+        .topic{
+            color:black;
+        }
+        .desc{
+            color:grey;
+        }
+
+        .price{
+            color:black;
+        }
+
+
+    }
+
+
+
+}
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+   .header{
+    width: 100%;
+   }
+
+    
+}
+
+

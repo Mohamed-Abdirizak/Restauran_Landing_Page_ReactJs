@@ -40,7 +40,7 @@ const Navbar = () => {
                
             </div>
 
-            light here..
+            {/* light here.. */}
         </div>
 
   )
