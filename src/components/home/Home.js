@@ -10,28 +10,40 @@ import './Home.css'
 import Footer from './Footer'
 import Last from './Last'
 import Darkmode from './Darkmode'
+import useLocalStorage from 'use-local-storage'
 
 const Home = () => {
+
+  // const [theme, setTheme] = useLocalStorage("theme", "light");
+
+  // const toggleTheme = () =>{
+  //   const newTheme = theme === "light" ? "dark" : "light";
+  //   setTheme(newTheme);
+
+  // }
   return (
     <div>
-      <Darkmode />
-      {/* <First />
-      <Dark
+      {/* <Darkmode /> */}
+      <First />
+      {/* <Dark */}
       <Second />
       <Tabs />
       <Amazing />
       <WhyUs />
-      <Customers /> */}
+      <Customers />
+      <DownloadApp />
+      <Footer />
+      <Last />
       <div className='download'>
-      {/* <DownloadApp /> */}
+        {/* <DownloadApp /> */}
 
 
 
       </div>
-{/*       
+      {/*       
       <Footer />
       <Last /> */}
-      
+
     </div>
   )
 }

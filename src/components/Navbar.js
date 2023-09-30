@@ -1,24 +1,29 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import {FaBars, FaTimes} from 'react-icons/fa'
-const Navbar = () => {
+import { FaBars, FaMoon, FaSun, FaTimes } from 'react-icons/fa'
+const Navbar = ({myTheme,onToggleTheme}) => {
 
-    const [click,setClick] = useState(false);
+    const [click, setClick] = useState(false);
 
-    const handleClick = () =>{
+    const handleClick = () => {
         setClick(!click)
     }
 
 
 
 
-  return (
-    <div className='paddingss header '>
-        <Link className='logo' to="/">Portfolio</Link>
+    return (
+        <div className='paddingss header ' data-theme={myTheme}>
+            <Link className='logo' to="/">Portfolio</Link>
 
 
-            <ul className={click ? "nav-ul active" : "nav-ul"}>
+          
+
+
+            <div className='navAndDark'>
+                  <ul className={click ? "nav-ul active" : "nav-ul"}>
+          
                 <li>
                     <Link to="/" onClick={handleClick} >Home</Link>
                 </li>
@@ -34,16 +39,34 @@ const Navbar = () => {
             </ul>
 
             <div className='hamburger' onClick={handleClick}>
-                {click ?( <FaTimes size={20} style={{color: 'black'}}/>) :(<FaBars size={20} style={{color: 'black'}}  />)}
-               
-                
-               
+                {click ? (<FaTimes size={20} style={{ color: 'black' }} />) : (<FaBars size={20} style={{ color: 'black' }} />)}
+
+
+
             </div>
 
             {/* light here.. */}
+
+            <div onClick={onToggleTheme} >
+                <span className="toggle-btn">
+                    <FaMoon color='pink' size={16} />
+                    <FaSun color='yellow' size={16} />
+                    <div className='ball'></div>
+                </span>
+
+            </div>
+            </div>
+          
+
+
+
+
+
+
+
         </div>
 
-  )
+    )
 }
 
 export default Navbar

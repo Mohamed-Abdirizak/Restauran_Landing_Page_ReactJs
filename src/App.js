@@ -5,12 +5,25 @@ import About from './routes/About';
 import Designs from './routes/Designs';
 import Contact from './routes/Contact';
 import Navbar from './components/Navbar';
+import useLocalStorage from 'use-local-storage';
 
 
 function App() {
+
+  const [theme, setTheme] = useLocalStorage("theme", "light");
+
+  const toggleTheme = () =>{
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    console.log("clicked...")
+    console.log(newTheme)
+
+  }
+
+
   return (
     <>
-    <Navbar />
+    <Navbar myTheme={theme} onToggleTheme={toggleTheme} />
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />

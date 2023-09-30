@@ -86,3 +86,18 @@ ul{
 
 
 }
+
+
+/*  */
+
+:root{
+  --textColorBlackorWhite: black;
+  --darkBg :white;
+  --darkOrLightBg: black;
+}
+[data-theme= "dark"]
+{
+  --textColorBlackorWhite: white;
+  --darkBg: #333;
+  --darkOrLightBg: rgb(215, 186, 186);
+}
