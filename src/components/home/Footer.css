@@ -1,10 +1,16 @@
+.mainFoot{
+    background-color: var(--darkOrWhiteBg);
+
+}
+
 .mainOneFooter{
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     flex-wrap: wrap;
     margin-bottom: 6rem;
     gap: 2rem;
+    
 
 
 
@@ -13,33 +19,50 @@
 
     .main p{
         margin-top: 1rem;
-        color: grey;
+        color: var(--textColorGreyOrWhite);
         font-size: .8rem;
+
+     
+    }
+    .main h4{
+        color:var(--textColorBlackOrYellow);
     }
 
     .pro p{
         margin-top: 1rem;
-        color: grey;
+        color: var(--textColorGreyOrWhite);
         font-size: .8rem;
+    }
+    .pro h4{
+        color:var(--textColorBlackOrYellow);
     }
 
     .press p{
         margin-top: 1rem;
-        color: grey;
+        color: var(--textColorGreyOrWhite);
         font-size: .8rem;
+    }
+    .press h4{
+        color:var(--textColorBlackOrYellow);
     }
 
     .legal p{
         margin-top: 1rem;
-        color: grey;
+        color: var(--textColorGreyOrWhite);
         font-size: .8rem;
     }
+    .legal h4{
+        color:var(--textColorBlackOrYellow);
+    }
     .search  p{
-        color: grey;
+        color: var(--textColorGreyOrWhite);
         margin-top: 1rem;
         font-size: .8rem;
         width: 300px;
         
+    }
+    .search h4{
+        color:var(--textColorBlackOrYellow);
     }
     .input{
         margin-top: 1rem;

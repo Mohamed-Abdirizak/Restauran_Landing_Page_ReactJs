@@ -8,9 +8,9 @@ import Navbar from '../Navbar'
 
 const First = ({myTheme}) => {
   return (
-    <div className='paddingss homeMain' data-theme={myTheme}>
+    <div className=' homeMain' data-theme={myTheme}>
       {/* left side starts here.. */}
-      <div className='left-side'>
+      <div className=' paddingss left-side'>
         <div className='leftOne'>
           <h1 className='del'>Delicious & Affordable food</h1>
           <h1 className='mea'>Meals  Near You.</h1>
@@ -32,7 +32,7 @@ const First = ({myTheme}) => {
 
 
       </div>
-      <div className='right-side'>
+      <div className='paddingss right-side'>
       <img src={foodImg} alt='foodImage'/>
       </div>
     </div>

@@ -12,6 +12,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 2rem;
+    background-color: var(--darkOrWhiteBg);
 
 
     .one img{
@@ -39,14 +40,17 @@
         /* margin-top: 2rem; */
         /* text-align: center; */
         align-items: center;
+        color:var(--textColorBlackorWhite);
     }
     .two p{
 
-        color:grey;
+        color:var(--textColorBlackorWhite);
     }
     .three{
+        color:var(--textColorBlackorWhite);
         .fbicon{
             margin-right: 1rem;
+           
         }
         .twicon{
             margin-right: 1rem;

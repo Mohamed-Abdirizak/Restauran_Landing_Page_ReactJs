@@ -29,11 +29,11 @@ const Home = () => {
       <Second myTheme={theme}/>
       <Tabs myTheme={theme} />
       <Amazing myTheme={theme} />
-      <WhyUs />
-      <Customers />
-      <DownloadApp />
-      <Footer />
-      <Last />
+      <WhyUs myTheme={theme} />
+      <Customers myTheme={theme} />
+      <DownloadApp myTheme={theme} />
+      <Footer myTheme={theme} />
+      <Last myTheme={theme} />
       <div className='download'>
         {/* <DownloadApp /> */}
 

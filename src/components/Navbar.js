@@ -16,14 +16,14 @@ const Navbar = ({myTheme,onToggleTheme, onSwitch}) => {
 
 
     return (
-        <div className='paddingss header ' data-theme={myTheme}>
-            <Link className='logo' to="/">Portfolio</Link>
+        <div className=' header ' data-theme={myTheme}>
+            <Link className='logo ' to="/">Portfolio</Link>
 
 
           
 
 
-            <div className='navAndDark'>
+            <div className='navAndDark paddingss'>
                   <ul className={click ? "nav-ul active" : "nav-ul"}>
           
                 <li>
@@ -41,7 +41,7 @@ const Navbar = ({myTheme,onToggleTheme, onSwitch}) => {
             </ul>
 
             <div className='hamburger' onClick={handleClick}>
-                {click ? (<FaTimes size={20} style={{ color: 'black' }} />) : (<FaBars size={20} style={{ color: 'black' }} />)}
+                {click ? (<FaTimes size={20} style={{ color: 'var(--textColorBlackorWhite)' }} />) : (<FaBars size={20} style={{ color: 'var(--textColorBlackorWhite)' }} />)}
 
 
 
@@ -51,8 +51,8 @@ const Navbar = ({myTheme,onToggleTheme, onSwitch}) => {
 
             <div onClick={onToggleTheme} >
                 <span className="toggle-btn">
-                    <FaMoon color='pink' size={16} />
-                    <FaSun color='yellow' size={16} />
+                    <FaMoon color='red' size={16} />
+                    <FaSun color='orange' size={16} />
                     <div className={onSwitch ? "ball move" :  "ball"}></div>
                 </span>
 

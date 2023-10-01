@@ -94,6 +94,8 @@ ul{
   --textColorBlackorWhite: black;
   --darkOrWhiteBg :white;
   --darkOrLightBg: black;
+  --darkLightColorBlackAndWhite: black;
+
   --textColorBlackOrYellow : black;
   --textColorGreyOrWhite: grey;
   --textColorBlueOrWhite:rgb(117, 117, 230);
@@ -102,6 +104,7 @@ ul{
 [data-theme= "dark"]
 {
   --textColorBlackorWhite: white;
+  --darkLightColorBlackAndWhite: white;
   --darkOrWhiteBg: #333;
   --darkOrLightBg: rgb(215, 186, 186);
   --textColorBlackOrYellow: orange;

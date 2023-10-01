@@ -1,13 +1,14 @@
 .WhyHeader {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
+    background-color: var(--darkOrWhiteBg);
     justify-content: space-between;
 
-    .dark-mode p,h1,h2,h3,h4,p{
+    /* .dark-mode p,h1,h2,h3,h4,p{
         color:white;
 
 
-    }
+    } */
 
 
     /* .why-left-side{
@@ -21,6 +22,9 @@
         border: 1rem solid blue;
     } */
 
+    .why-right-side{
+        margin-top: 2rem;
+    }
     .why-right-side img {
         /* max-width:auto; */
         height: 400px;
@@ -35,9 +39,10 @@
     }
 
     .why-left-side {
+
         /* padding: 20rem; */
         margin-left: 2rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         /* margin-top: 20rem; */
 
 
@@ -47,6 +52,7 @@
 
             .why {
                 margin-right: 1rem;
+                color:var(--textColorBlackOrYellow);
             }
         }
 
@@ -73,7 +79,7 @@
         }
 
         .lorem-text p {
-            color: grey;
+            color: var(--textColorGreyOrWhite);
             margin-top: 1rem;
             margin-bottom: 1rem;
             width: 70%;
@@ -85,6 +91,17 @@
             display: flex;
             justify-content: space-around;
             width: 70%;
+
+
+            .num1{
+                color:var(--textColorBlackOrYellow);
+            }
+            .num2{
+                color:var(--textColorBlackOrYellow);
+            }
+            .num3{
+                color:var(--textColorBlackOrYellow);
+            }
         }
 
         .numsHoosTooda {
@@ -94,18 +111,26 @@
             color: rgb(117, 117, 230);
 
 
+
+
             margin-bottom: 1rem;
+
+
+          
 
             .num1Hoos {
                 font-size: 1.2rem;
+                color:var(--textColorBlueOrWhite);
             }
 
             .num2Hoos {
                 font-size: 1.2rem;
+                color: var(--textColorBlueOrWhite);
             }
 
             .num3Hoos {
                 font-size: 1.2rem;
+                color:var(--textColorBlueOrWhite);
             }
 
 

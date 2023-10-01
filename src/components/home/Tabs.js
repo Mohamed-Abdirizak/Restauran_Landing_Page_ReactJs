@@ -15,10 +15,10 @@ const Tabs = ({myTheme}) => {
     };
 
     return (
-        <div className='paddingss mainOne' data-theme={myTheme}>
+        <div className=' mainOne' data-theme={myTheme}>
             {/* <h1>dkfjdskl</h1> */}
             {/*start  tabs... */}
-            <div className='tabsAndTopic'>
+            <div className='tabsAndTopic paddingss' >
                 <div className='tTopic'>
                     <h3 className='check'>Checkout Our</h3>
                     <h2 className='menu'>Menu.</h2>

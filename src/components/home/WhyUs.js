@@ -2,10 +2,10 @@ import React from 'react'
 import './WhyUs.css'
 import foodImg from '../../assets/food.jfif'
 
-const WhyUs = () => {
+const WhyUs = ({myTheme}) => {
     return (
-        <div className='paddingss WhyHeader'>
-            <div className='why-left-side'>
+        <div className=' WhyHeader' data-theme={myTheme}>
+            <div className='paddingss why-left-side'>
             <div className='brand'>
                 <h4>A Reputed Brand</h4>
 
@@ -51,7 +51,7 @@ const WhyUs = () => {
 
 
 
-            <div className='why-right-side'>
+            <div className='paddingss why-right-side'>
                 <img src={foodImg} alt='whyImage' />
               
 

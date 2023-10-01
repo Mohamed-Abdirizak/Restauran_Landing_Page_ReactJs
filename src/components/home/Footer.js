@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
-const Footer = () => {
+const Footer = ({myTheme}) => {
   return (
-    <div className='paddingss'>
+    <div className=' mainFoot' data-theme={myTheme}>
 
-        <div className='mainOneFooter'>
+        <div className='mainOneFooter paddingss'>
             <div className='main'>
                 <h4>Main</h4>
                 <p>Blog</p>

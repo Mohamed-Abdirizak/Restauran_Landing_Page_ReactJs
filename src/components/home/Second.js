@@ -4,15 +4,15 @@ import foodImg from '../../assets/food.jfif'
 
 const Second = ({myTheme}) => {
     return (
-        <div className='paddingss secondHeader' data-theme={myTheme}>
-            <div className='s-left-side'>
+        <div className=' secondHeader' data-theme={myTheme}>
+            <div className='paddingss s-left-side'>
                 <img src={foodImg} alt='foodImage' />
 
             </div>
 
 
 
-            <div className='s-right-side'>
+            <div className='paddingss s-right-side'>
                 <div className='est'>
                 <h4>Established Since 2014</h4>
 

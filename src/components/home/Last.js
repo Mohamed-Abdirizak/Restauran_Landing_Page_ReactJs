@@ -2,15 +2,15 @@ import React from 'react'
 import './Last.css'
 import fatihIcon from '../../assets/cus/f-removebg-preview.png'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
-const Last = () => {
+const Last = ({myTheme}) => {
   return (
-    <div className='paddingss mainLast'>
-        <div className='one'>
+    <div className=' mainLast' data-theme={myTheme}>
+        <div className='one  paddingss'>
             <img src={fatihIcon} alt='fatih image' />
             <p>Trading Co.</p>
 
         </div>
-        <div className='two'>
+        <div className='two paddingss'>
             <p>© 2018 Treact Inc. All Rights Reserved.</p>
 
         </div>

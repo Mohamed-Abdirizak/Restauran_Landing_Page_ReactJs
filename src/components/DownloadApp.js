@@ -3,11 +3,11 @@ import './DownloadApp.css'
 import iphoneLogo from '../assets/Icons/iphone.png'
 import storeLogo from '../assets/Icons/play_store.png'
 import device from '../assets/Icons/device.png'
-const DownloadApp = () => {
+const DownloadApp = ({myTheme}) => {
     return (
-        <div className=' dmain'>
+        <div className=' dmain' data-theme={myTheme}>
             {/* left side */}
-            <div className='d-left'>
+            <div className='paddingss d-left'>
                 <div className='d-topic'>
                     Download App
                 </div>
@@ -40,7 +40,7 @@ const DownloadApp = () => {
                 </div>
             </div>
             {/* right side */}
-            <div className='d-right'>
+            <div className='paddingss d-right'>
                 <div className='imageDivClass'>
                 <img src={device} alt='device image' />
 

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/home/Home';
@@ -23,6 +23,13 @@ function App() {
     // console.log(newTheme)
 
   }
+
+  useEffect(()=>{
+    if (theme === "dark")
+    {
+      setSwtichBtn(true);
+    }
+  })
 
 
   return (

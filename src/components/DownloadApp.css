@@ -1,5 +1,6 @@
 .dmain{
-    color: white;
+    background-color: var(--darkOrWhiteBg);
+    /* color: white; */
     padding: 100px 20px 100px 20px;
     display: flex;
     justify-content: space-around;
@@ -9,8 +10,8 @@
 
 
     .d-topic{
-        color:orange;
-        font-size: 1rem;
+        color:var(--textColorBlueOrWhite);
+        font-size: 3rem;
     }
 
 
@@ -33,7 +34,7 @@
 
             .line1 h4{
                 /* { */
-                    color:white;
+                    color:var(--textColorBlackOrYellow);
                 /* } */
             }
 
@@ -42,7 +43,7 @@
                 display: flex;
 
                 .meals{
-                    color:white;
+                    color:var(--textColorBlackOrYellow);
                     margin-right: 1rem;
                 }
 
@@ -52,7 +53,7 @@
 
                 .treact{
                     text-align: center;
-                    padding-left: 1rem;
+                    /* padding-left: 1rem; */
                     color:blue;
                     background-color: white;
                     padding: .5rem 1rem .5rem 1rem;
@@ -76,7 +77,7 @@
             .iphone{
                 display: flex;
                 align-items: center;
-                background: white;
+                background:var(--textColorGreyOrWhite);
                 padding: .3rem 2rem .3rem 2rem;
                 border-top-right-radius: 30px;
                 border-top-left-radius: 30px;
@@ -89,7 +90,7 @@
             {
                 display: flex;
                 align-items: center;
-                background: white;
+                background:var(--textColorGreyOrWhite);
                 padding: .3rem 2rem .3rem 2rem;
                 border-top-right-radius: 30px;
                 border-top-left-radius: 30px;
@@ -136,15 +137,20 @@
 
             .d-desc-main{
 
-                .line1 h4{
-                    font-size: 1.7rem;
+                .line1{
+                    .people{
+                        color:orange;
+                    }
+                    /* font-size: 1.7rem; */
+                    /* color:black; */
                 }
 
                 .line2{
                     flex-direction: column;
 
-                    .meals h4{
+                    .meals {
                         font: 1.7rem;
+                        /* color:orange; */
                     }
 
                     .treact{
@@ -154,7 +160,7 @@
                         margin-left: 130px;
  
                            color:blue;
-                           background: white;
+                           /* background: white; */
                            padding: .5rem 1rem .5rem 1rem;
                       
                     }
@@ -264,11 +270,3 @@
     
 }
 
-.light-mode{
-    .dmain{
-        width: 100%;
-
-        background-color: rgb(157, 148, 132);
-        /* background: ; */
-    }
-}

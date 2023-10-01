@@ -2,10 +2,10 @@ import React from 'react'
 import './Customers.css'
 import img1 from '../../assets/beard.png'
 import { CustomerData } from './AllCardsData/CustomersData'
-const Customers = () => {
+const Customers = ({myTheme}) => {
     return (
-        <div className='paddingss '>
-            <div className='cusText'>
+        <div className=' cusMain ' data-theme={myTheme}>
+            <div className='paddingss cusText'>
                 <h2 className='cus'>Customers</h2>
                 <h2 className='love'>Love Us.</h2>
             </div>
@@ -29,7 +29,7 @@ const Customers = () => {
                 }
             </div> */}
 
-            <div className='mainCard'>
+            <div className='paddingss mainCard'>
                 {CustomerData.map((item) => (
                     <div className='cad' key={item.id}>
                         <div className='imagess'>

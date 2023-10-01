@@ -9,7 +9,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Amazing = ({myTheme}) => {
     return (
-        <div className='paddingss fullHere' data-theme = {myTheme}>
+        <div className=' fullHere' data-theme = {myTheme}>
 
             {/* <div className='paddingss additonaPaddings amaHeader  '>
                 <h2 className='ama'>Amazing</h2>
@@ -18,7 +18,7 @@ const Amazing = ({myTheme}) => {
 
             </div> */}
 
-<div className=' additonaPaddings amaHeader' >
+<div className='paddingss additonaPaddings amaHeader' >
   <div className='text-row'>
     <h2 className=' ama'>Amazing</h2>
     <h2 className=' ser'>Services</h2>
