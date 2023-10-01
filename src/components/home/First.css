@@ -1,14 +1,20 @@
+
 .homeMain{
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     display: flex;
     justify-content: space-between;
+    background-color: var(--darkOrWhiteBg);
+
+
     .left-side{
         margin-top: 3rem;
+        /* margin-left:1rem; */
     }
 
 /* delicious and affordable styles */
     .left-side .del{
-        /* color:orange; */
+        margin-top: 6rem;
+        color: var(--textColorBlackOrYellow);
         font-size: 3rem;
     }
 /* meals near you style */
@@ -24,11 +30,17 @@
     .left-side .lorem p{
         padding-top: 2rem;
         width: 70%;
-        color: grey;
+        color: var(--textColorGreyOrWhite);
     }
+    
     .left-side .leftTwo{
         margin-top: 20px;
         display: flex;
+    }
+    .leftTwo{
+        .btn{
+            /* color:var(--textColorBlackorWhite) */
+        }
     }
 
     .leftTwo .playImg{
@@ -38,10 +50,12 @@
     }
     .lastTwo{
         display: flex;
+
+      
     }
 
     .leftTwo .lastTwo h4{
-        color:grey;
+        color:var(--textColorBlackorWhite);
         margin-top: 1rem;
         margin-left: .5rem;
     }
@@ -56,6 +70,7 @@
 
 
 .right-side img{
+    margin-top: 6rem;
     max-width: 100%;
     height: 400px;
     width: 700px;

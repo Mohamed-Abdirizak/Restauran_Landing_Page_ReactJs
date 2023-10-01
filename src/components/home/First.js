@@ -6,9 +6,9 @@ import foodImg from '../../assets/food.jfif'
 import playIcon from '../../assets/play.png'
 import Navbar from '../Navbar'
 
-const First = () => {
+const First = ({myTheme}) => {
   return (
-    <div className='paddingss homeMain'>
+    <div className='paddingss homeMain' data-theme={myTheme}>
       {/* left side starts here.. */}
       <div className='left-side'>
         <div className='leftOne'>

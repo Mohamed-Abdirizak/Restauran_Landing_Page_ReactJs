@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/home/Home';
@@ -9,21 +10,24 @@ import useLocalStorage from 'use-local-storage';
 
 
 function App() {
+  const [switchBtn, setSwtichBtn] = useState(false);
+
 
   const [theme, setTheme] = useLocalStorage("theme", "light");
 
   const toggleTheme = () =>{
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-    console.log("clicked...")
-    console.log(newTheme)
+    setSwtichBtn(!switchBtn);
+    // console.log("clicked...")
+    // console.log(newTheme)
 
   }
 
 
   return (
     <>
-    <Navbar myTheme={theme} onToggleTheme={toggleTheme} />
+    <Navbar myTheme={theme} onToggleTheme={toggleTheme}onSwitch={switchBtn} />
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />

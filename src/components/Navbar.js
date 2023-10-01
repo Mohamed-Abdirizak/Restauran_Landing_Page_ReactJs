@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import { FaBars, FaMoon, FaSun, FaTimes } from 'react-icons/fa'
-const Navbar = ({myTheme,onToggleTheme}) => {
+const Navbar = ({myTheme,onToggleTheme, onSwitch}) => {
 
     const [click, setClick] = useState(false);
 
     const handleClick = () => {
-        setClick(!click)
+        setClick(!click);
+
     }
+
 
 
 
@@ -51,7 +53,7 @@ const Navbar = ({myTheme,onToggleTheme}) => {
                 <span className="toggle-btn">
                     <FaMoon color='pink' size={16} />
                     <FaSun color='yellow' size={16} />
-                    <div className='ball'></div>
+                    <div className={onSwitch ? "ball move" :  "ball"}></div>
                 </span>
 
             </div>

@@ -7,7 +7,7 @@ import CardTab2 from './TabsCard/CardTab2';
 import CardTab3 from './TabsCard/CardTab3';
 import CardTab4 from './TabsCard/CardTab4';
 
-const Tabs = () => {
+const Tabs = ({myTheme}) => {
     const [activeTab, setActiveTab] = useState(0);
 
     const handleTabClick = (index) => {
@@ -15,7 +15,7 @@ const Tabs = () => {
     };
 
     return (
-        <div className='paddingss mainOne'>
+        <div className='paddingss mainOne' data-theme={myTheme}>
             {/* <h1>dkfjdskl</h1> */}
             {/*start  tabs... */}
             <div className='tabsAndTopic'>

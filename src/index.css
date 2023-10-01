@@ -92,12 +92,19 @@ ul{
 
 :root{
   --textColorBlackorWhite: black;
-  --darkBg :white;
+  --darkOrWhiteBg :white;
   --darkOrLightBg: black;
+  --textColorBlackOrYellow : black;
+  --textColorGreyOrWhite: grey;
+  --textColorBlueOrWhite:rgb(117, 117, 230);
+  /* --textColorBlue */
 }
 [data-theme= "dark"]
 {
   --textColorBlackorWhite: white;
-  --darkBg: #333;
+  --darkOrWhiteBg: #333;
   --darkOrLightBg: rgb(215, 186, 186);
+  --textColorBlackOrYellow: orange;
+  --textColorGreyOrWhite: white;
+  --textColorBlueOrWhite: white;
 }

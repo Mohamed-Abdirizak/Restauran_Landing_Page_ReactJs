@@ -1,6 +1,10 @@
+.mainOne{
+  background-color: var(--darkOrWhiteBg);
+}
+
 .tabsAndTopic{
 
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     justify-content: space-around;
 
@@ -8,10 +12,12 @@
     .tTopic
     {
         display: flex;
+        margin-top: 2rem;
 
         .check{
            margin-right: 1rem;
            font-size: 3rem;
+           color: var(--textColorBlackOrYellow);
         }
 
         .menu{
@@ -44,6 +50,7 @@
 
 
 .tab-list {
+  
     display: flex;
     margin-top: 2rem;
   }

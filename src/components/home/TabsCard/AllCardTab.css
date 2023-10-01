@@ -12,6 +12,7 @@
 
     .cards{
         background-color: antiquewhite;
+        /* background-color: var(--darkOrLightBg); */
         padding: 0rem 0rem 1rem 0rem;
         margin-bottom: 2rem;
 

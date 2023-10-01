@@ -5,9 +5,9 @@
     align-items: center;
     /* padding:  */
     /* padding: 1rem; */
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     margin-top: 1rem;
-    background-color: var(--darkBg);
+    background-color: var(--darkOrWhiteBg);
     /* width: 100%; */
 }
 
@@ -131,13 +131,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
+.move{
+    transform: translateX(22px);
+}
 

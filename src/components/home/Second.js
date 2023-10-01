@@ -2,9 +2,9 @@ import React from 'react'
 import './Second.css'
 import foodImg from '../../assets/food.jfif'
 
-const Second = () => {
+const Second = ({myTheme}) => {
     return (
-        <div className='paddingss secondHeader'>
+        <div className='paddingss secondHeader' data-theme={myTheme}>
             <div className='s-left-side'>
                 <img src={foodImg} alt='foodImage' />
 

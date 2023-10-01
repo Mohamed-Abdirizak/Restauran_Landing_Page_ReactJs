@@ -34,15 +34,20 @@
 
 } */
 
-  
+
+.fullHere{
+  background-color: var(--darkOrWhiteBg);
+}
   .additonaPaddings {
     margin-left: 4rem;
     margin-right: 4rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* Add any existing styles for .additonaPaddings */
   }
   
   .amaHeader {
+    /* margin-top: 3rem; */
+    /* background-color: orange; */
     /* Add any existing styles for .amaHeader */
   }
   
@@ -52,11 +57,14 @@
   }
   .ama{
     font-size:3rem;
-    margin-top: .5rem;
+    margin-top: 3rem;
     margin-right: 1rem;
+    color:var(--textColorBlackOrYellow);
   }
+
   
   .ser {
+    margin-top: 3rem;
     background-color: blue;
     padding: 1rem;
     font-size: 3rem;
@@ -191,12 +199,12 @@
     }
 
     .des p {
-        color: grey;
+        color: var(--textColorGreyOrWhite);
     }
 
     .learn {
         margin-top: 1rem;
-        color: blue;
+        color: var(--textColorBlackOrYellow);
         display: flex;
         /* align-items: center; */
         /* text-align: center; */
@@ -208,7 +216,7 @@
 
     .learn h4 {
         /* padding-bottom: 5rem; */
-        color: blue;
+        color: var(--textColorBlackOrYellow);
         padding-right: .5rem;
         /* padding-top: ?; */
         /* padding-bottom: -.5rem; */

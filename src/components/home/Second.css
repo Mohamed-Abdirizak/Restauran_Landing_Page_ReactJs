@@ -1,9 +1,11 @@
 .secondHeader {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     justify-content: space-between;
+    background-color:var(--darkOrWhiteBg);
 
     .s-left-side img {
+        margin-top: 2rem;
         max-width: 100%;
         height: 400px;
         width: 700px;
@@ -17,15 +19,15 @@
 
     .s-right-side {
         margin-left: 2rem;
-        margin-top: 3rem;
+        margin-top: 4rem;
 
 
         .est h4 {
-            color: rgb(117, 117, 230);
+            color: var(--textColorBlueOrWhite);
         }
 
         .we {
-            /* color: orange; */
+            color: var(--textColorBlackOrYellow);
             font-size: 3rem;
         }
 
@@ -39,7 +41,7 @@
         }
 
         .s-lorem p {
-            color: grey;
+            color: var(--textColorGreyOrWhite);
             margin-top: 1rem;
             margin-bottom: 1rem;
         }

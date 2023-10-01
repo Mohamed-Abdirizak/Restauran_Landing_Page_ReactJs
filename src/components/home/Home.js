@@ -14,21 +14,21 @@ import useLocalStorage from 'use-local-storage'
 
 const Home = () => {
 
-  // const [theme, setTheme] = useLocalStorage("theme", "light");
+  const [theme, setTheme] = useLocalStorage("theme", "light");
 
-  // const toggleTheme = () =>{
-  //   const newTheme = theme === "light" ? "dark" : "light";
-  //   setTheme(newTheme);
+  const toggleTheme = () =>{
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
 
-  // }
+  }
   return (
     <div>
       {/* <Darkmode /> */}
-      <First />
+      <First myTheme={theme}/>
       {/* <Dark */}
-      <Second />
-      <Tabs />
-      <Amazing />
+      <Second myTheme={theme}/>
+      <Tabs myTheme={theme} />
+      <Amazing myTheme={theme} />
       <WhyUs />
       <Customers />
       <DownloadApp />
